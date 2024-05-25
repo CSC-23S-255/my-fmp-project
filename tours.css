@@ -1,0 +1,71 @@
+.slider .btn {
+  margin-top: 20px;
+}
+
+#logo{
+	font-size: 1px;
+}
+a{
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+#logo:nth-child(1) a {
+  color: #000000;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+#logo:nth-child(1) a:hover {
+  color: #ffffff;
+  -webkit-animation: none;
+  animation: none;
+}
+
+#logo a:hover {
+  color: #ffffff;
+}
+/*glow for webkit*/
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
+
+/*glow for mozilla*/
+
+/*glow*/
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #8ff5a2, 0 0 70px #5cfc7a, 0 0 80px #00ff5f, 0 0 100px #11ff39, 0 0 150px #11ff5a}
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #1161ff
+  }
+}
+
+.flow-text{
+  font-size: large;
+}
+
+
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+.section-contact h5 {
+  margin-bottom: 30px;
+}
+
